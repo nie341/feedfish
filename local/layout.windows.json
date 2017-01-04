@@ -88,6 +88,12 @@
         "snapshot": true,
         "type": "dock-h"
       }
+    },
+    "worker": {
+      "x": 1080,
+      "y": 550,
+      "width": 400,
+      "height": 300
     }
   }
 }

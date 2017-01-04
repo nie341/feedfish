@@ -309,16 +309,6 @@
     "meta": 1483069840577,
     "relativePath": "Prefab\\lure.prefab"
   },
-  "a7664e2e-1c43-4d08-8651-ef904fdd51e7": {
-    "asset": 1483510965142,
-    "meta": 1483510985979,
-    "relativePath": "resources\\dialogs"
-  },
-  "bc825599-b547-4bb8-897f-3d442fbe7db0": {
-    "asset": 1482290159000,
-    "meta": 1482290159000,
-    "relativePath": "resources\\dialogs\\lileihanmeimei.json"
-  },
   "37a918b6-c12e-43bd-8e60-dc5015629678": {
     "asset": 1483510965146,
     "meta": 1483510985982,
@@ -348,21 +338,6 @@
     "asset": 1482290159000,
     "meta": 1483069840957,
     "relativePath": "Script\\Camera.js"
-  },
-  "212e441a-d6e5-4c9b-ba2d-878cf25f36ca": {
-    "asset": 1482290159000,
-    "meta": 1483069840990,
-    "relativePath": "Script\\Dialog.js"
-  },
-  "06de4ee1-b879-43b6-b242-87279f5a1c94": {
-    "asset": 1482290159000,
-    "meta": 1483069841001,
-    "relativePath": "Script\\DialogData.js"
-  },
-  "d26e5096-62f2-4679-8a91-0707979f49aa": {
-    "asset": 1482290159000,
-    "meta": 1483069841024,
-    "relativePath": "Script\\DialogParser.js"
   },
   "6981d8d7-5a76-48ca-b63a-bcbfd4c80079": {
     "asset": 1482992236192,
@@ -889,11 +864,6 @@
     "meta": 1483493307355,
     "relativePath": "Script\\Timer.js"
   },
-  "4bf4eeb0-e32a-4dc0-a35d-9a55c660025e": {
-    "asset": 1483500872785,
-    "meta": 1483500900130,
-    "relativePath": "Script\\Control.js"
-  },
   "d9b660de-1a15-4c36-8fbb-13f30d418f41": {
     "asset": 1483504500764,
     "meta": 1483504500792,
@@ -930,8 +900,13 @@
     "relativePath": "Script\\SceneManager.js"
   },
   "39f2b80e-2395-4e14-ad8a-4410930348db": {
-    "asset": 1483510544088,
-    "meta": 1483510630406,
+    "asset": 1483514867160,
+    "meta": 1483514869064,
     "relativePath": "Script\\Game.js"
+  },
+  "4bf4eeb0-e32a-4dc0-a35d-9a55c660025e": {
+    "asset": 1483500872785,
+    "meta": 1483514958517,
+    "relativePath": "Script\\Control.js"
   }
 }

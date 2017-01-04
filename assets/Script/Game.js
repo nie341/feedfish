@@ -28,7 +28,7 @@ cc.Class({
             type: cc.Node
         },
 
-
+ 
     },
 
 
