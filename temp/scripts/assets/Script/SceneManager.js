@@ -15,7 +15,7 @@ cc.Class({
     onLoad: function onLoad() {
         var self = this;
         //在webGL下有问题
-        cc.view.enableAntiAlias(false);
+        //cc.view.enableAntiAlias(false);
         cc.game.addPersistRootNode(this.node);
         // this.loading.startLoading();
         this.loadScene('main');
