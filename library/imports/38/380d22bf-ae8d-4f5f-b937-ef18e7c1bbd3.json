@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jiudiannao_25",
+    "texture": "423f8d4e-1806-4ac8-a153-248c839a831b",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      127,
+      123
+    ],
+    "offset": [
+      0.5,
+      2.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ]
+  }
+}

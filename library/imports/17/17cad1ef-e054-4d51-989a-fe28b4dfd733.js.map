@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,aAAK,EAAE,EAAE,CAAC,IAAI;AACd,YAAI,EAAC,EAAE,CAAC,IAAI;KAEf;;;AAED,UAAM,EAAC,kBAAG;;;AAGN,YAAI,IAAI,GAAC,IAAI,CAAC;AACd,YAAI,CAAC,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,IAAI,CAAC,SAAS,CAAC,SAAS,EAAE,UAAS,KAAK,EAAE;AACvD,gBAAI,CAAC,SAAS,EAAE,CAAC;SACpB,CAAC,CAAC;KACN;;;AAGD,gBAAY,EAAC,wBAAG;AACZ,YAAI,CAAC,KAAK,CAAC,OAAO,GAAG,KAAK,CAAC;;AAE3B,YAAI,IAAI,GAAG,EAAE,CAAC,IAAI,CAAC,cAAc,EAAE,CAAC;AACpC,YAAI,CAAC,IAAI,CAAC,WAAW,CAAC,EAAE,CAAC,CAAC,CAAC,IAAI,CAAC,KAAK,GAAC,CAAC,GAAG,IAAI,CAAC,IAAI,CAAC,KAAK,GAAC,CAAC,EAAE,IAAI,CAAC,MAAM,GAAC,CAAC,CAAC,CAAC,CAAC;AAC7E,YAAI,CAAC,IAAI,CAAC,WAAW,CAAC,CAAC,EAAC,CAAC,CAAC,CAAC;;KAE9B;;AAED,eAAW,EAAC,uBAAG;AACX,YAAI,IAAI,GAAC,IAAI,CAAC;;AAEb,YAAI,CAAC,KAAK,CAAC,OAAO,GAAG,IAAI,CAAC;;;AAG3B,UAAE,CAAC,GAAG,CAAC,cAAc,CAAC,CAAC;;;KAG1B;;CAYJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        label: cc.Node,\n        fish:cc.Node,\n        //interval: 0\n    },\n\n    onLoad () {\n        // this.dotCount = 0;\n        // this.dotMaxCount = 3;\n        let self=this;\n        this.label.on(cc.Node.EventType.TOUCH_END, function(event) {\n            self.loadScene();\n        });\n    },\n\n    // use this for initialization\n    startLoading () {\n        this.label.enabled = false;\n        //this.dotCount = 0;\n        let size = cc.view.getVisibleSize();\n        this.node.setPosition(cc.p(size.width/2 - this.node.width/2, size.height/4));\n        this.fish.setPosition(0,0);\n       // this.schedule(this.updateLabel, this.interval, this);        \n    },\n\n    stopLoading () {\n        let self=this;\n       // this.scheduleOnce(function(){\n         self.label.enabled = true;\n        //},3);\n        \n        cc.log('stop loading');\n        // this.unschedule(this.updateLabel);\n        // this.node.setPosition(cc.p(2000, 2000));\n    },\n\n    // updateLabel () {\n    //     let dots = '.'.repeat(this.dotCount);\n    //     this.label.string = 'Loading' + dots;\n    //     this.dotCount += 1;\n    //     if (this.dotCount > this.dotMaxCount) {\n    //         this.dotCount = 0;\n    //     }\n    // }\n\n    \n});\n"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.project2026-master",
+  "startScene": "ba850de2-935b-49c4-9a09-63cfa548dd90",
+  "title": "feedfish",
+  "webOrientation": "landscape"
+}

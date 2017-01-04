@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BODY_male_36",
+    "texture": "9c4211ab-5324-449e-80c7-ca9c06b505eb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      21,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      21,
+      47
+    ]
+  }
+}

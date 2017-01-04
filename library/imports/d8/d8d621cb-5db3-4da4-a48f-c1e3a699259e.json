@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "judge_pan_bg",
+    "texture": "113784be-5fea-47fb-82ce-adc658a00b10",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      782,
+      249
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      782,
+      249
+    ]
+  }
+}

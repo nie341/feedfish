@@ -1,0 +1,86 @@
+[{
+	"stage":1,
+	"otherFishCount":0,
+	"fish":{
+		"max_seed":15,
+		"move_rate":0.2,
+		"turn_speed":5,
+		"idle_time":5
+	},
+	"throw_lure":{
+		"interval":5,
+		"count":5
+	},
+	"bigLure":false,
+	"stone":false,
+	"timer":60,
+	"star1":5,
+	"star2":15,
+	"star3":30
+
+},
+{
+	"stage":2,
+	"otherFishCount":1,
+	"fish":{
+		"max_seed":15,
+		"move_rate":0.2,
+		"turn_speed":5,
+		"idle_time":5
+	},
+	"throw_lure":{
+		"interval":5,
+		"count":5
+	},
+	"bigLure":false,
+	"stone":false,
+	"timer":60,
+	"star1":5,
+	"star2":15,
+	"star3":25
+
+},
+{
+	"stage":3,
+	"otherFishCount":1,
+	"fish":{
+		"max_seed":15,
+		"move_rate":0.2,
+		"turn_speed":5,
+		"idle_time":5
+	},
+	"throw_lure":{
+		"interval":5,
+		"count":5
+	},
+	"bigLure":false,
+	"stone":true,
+	"timer":60,
+	"star1":5,
+	"star2":15,
+	"star3":20
+
+},
+{
+	"stage":4,
+	"otherFishCount":2,
+	"fish":{
+		"max_seed":15,
+		"move_rate":0.2,
+		"turn_speed":5,
+		"idle_time":5
+	},
+	"throw_lure":{
+		"interval":5,
+		"count":5
+	},
+	"bigLure":false,
+	"stone":true,
+	"timer":60,
+	"star1":5,
+	"star2":15,
+	"star3":20
+
+}
+
+]

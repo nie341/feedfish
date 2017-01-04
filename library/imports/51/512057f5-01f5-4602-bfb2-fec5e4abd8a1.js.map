@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,OAAO,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;;AAEnC,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,eAAO,EAAE,OAAO;KACnB;;;AAGD,UAAM,EAAE,kBAAW;AACf,YAAI,IAAI,GAAG,IAAI,CAAC;;AAEhB,UAAE,CAAC,IAAI,CAAC,eAAe,CAAC,KAAK,CAAC,CAAC;AAC/B,UAAE,CAAC,IAAI,CAAC,kBAAkB,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC;;AAEtC,YAAI,CAAC,SAAS,CAAC,MAAM,CAAC,CAAC;AACvB,YAAI,CAAC,OAAO,CAAC,SAAS,GAAG,YAAW;AAChC,cAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,IAAI,CAAC,eAAe,CAAC,CAAC;SAC/C,CAAA;KACJ;;;;;;AAMD,aAAS,EAAA,mBAAC,SAAS,EAAE;AACjB,YAAI,IAAI,GAAG,IAAI,CAAC;AAChB,YAAI,CAAC,OAAO,CAAC,YAAY,EAAE,CAAC;AAC5B,YAAI,CAAC,eAAe,GAAG,SAAS,CAAC;;AAEjC,UAAE,CAAC,MAAM,CAAC,OAAO,CAAC,aAAa,EAAE,UAAS,GAAG,EAAE,IAAI,EAAE;AACjD,gBAAI,CAAC,OAAO,CAAC,UAAU,GAAC,IAAI,CAAC;AAC7B,cAAE,CAAC,QAAQ,CAAC,YAAY,CAAC,SAAS,EAAE,IAAI,CAAC,aAAa,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC,CAAC;SACtE,CAAC,CAAC;KACN;;AAED,iBAAa,EAAA,uBAAC,KAAK,EAAE;AACjB,UAAE,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC;AACb,YAAI,CAAC,OAAO,CAAC,WAAW,EAAE,CAAC;;;KAI9B;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const Loading = require('Loading');\n\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n        loading: Loading\n    },\n\n    // use this for initialization\n    onLoad: function() {\n        let self = this;\n        //在webGL下有问题\n        cc.view.enableAntiAlias(false);\n        cc.game.addPersistRootNode(this.node);\n        // this.loading.startLoading();\n        this.loadScene('main');\n        this.loading.loadScene = function() {\n            cc.director.loadScene(self.curLoadingScene);\n        }\n    },\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n    loadScene(sceneName) {\n        let self = this;\n        this.loading.startLoading();\n        this.curLoadingScene = sceneName;\n        //this.onSceneLoaded.bind(this);\n        cc.loader.loadRes('stages.json', function(err, data) {\n            self.loading.stagesData=data;\n            cc.director.preloadScene(sceneName, self.onSceneLoaded.bind(self));\n        });\n    },\n\n    onSceneLoaded(event) {\n        cc.log(this);\n        this.loading.stopLoading();\n\n        // cc.director.loadScene(this.curLoadingScene);\n\n    }\n});"
+  ]
+}

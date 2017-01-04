@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Giant-Clam",
+    "texture": "e7ca2425-07c1-43c2-a336-226b04a3f666",
+    "atlas": "",
+    "rect": [
+      3,
+      27,
+      248,
+      206
+    ],
+    "offset": [
+      -1,
+      -2
+    ],
+    "originalSize": [
+      256,
+      256
+    ]
+  }
+}

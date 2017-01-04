@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "feedfish",
+    "texture": "d9b660de-1a15-4c36-8fbb-13f30d418f41",
+    "atlas": "",
+    "rect": [
+      64,
+      20,
+      672,
+      162
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      800,
+      200
+    ]
+  }
+}

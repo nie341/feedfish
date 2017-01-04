@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bubu_life_01",
+    "texture": "1a4f823b-98e7-402b-a5cc-510c80effe5c",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      256,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      256
+    ]
+  }
+}

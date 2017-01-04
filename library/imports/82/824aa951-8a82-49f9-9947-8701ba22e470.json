@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brokeglass",
+    "texture": "d4ada669-3231-4288-8058-ff59020a8099",
+    "atlas": "",
+    "rect": [
+      41,
+      38,
+      577,
+      510
+    ],
+    "offset": [
+      -11.5,
+      11
+    ],
+    "originalSize": [
+      682,
+      608
+    ]
+  }
+}

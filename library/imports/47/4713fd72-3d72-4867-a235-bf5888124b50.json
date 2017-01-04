@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gold_hardware_08",
+    "texture": "6a05e272-38e0-4ea8-b951-5d25e0529b90",
+    "atlas": "",
+    "rect": [
+      6,
+      0,
+      117,
+      128
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ]
+  }
+}

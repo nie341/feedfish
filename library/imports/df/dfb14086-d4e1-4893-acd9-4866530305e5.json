@@ -1,0 +1,9 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fish_turn_left",
+  "_objFlags": 0,
+  "_duration": 0,
+  "sample": 60,
+  "curveData": {},
+  "events": []
+}
