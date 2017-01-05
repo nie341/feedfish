@@ -28,7 +28,7 @@ cc.Class({
         self.stageScore.getComponent(cc.Label).string = result.score;
         self.getStars(result.score);
         var stagestring = cc.sys.localStorage.getItem('stage' + stage);
-        if (!stagestring) {
+        if (stagestring) {
             var stageStorage = JSON.parse(stagestring);
 
             self.stageBestScore.getComponent(cc.Label).string = stageStorage.bestScore;

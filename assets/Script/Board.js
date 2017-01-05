@@ -35,7 +35,7 @@ cc.Class({
         } else {
             self.bestScore = 0;
         }
-
+ 
     },
     getStars: function(score) {
         let self = this;

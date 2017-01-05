@@ -889,11 +889,6 @@
     "meta": 1483446507224,
     "relativePath": "resources\\stages.json"
   },
-  "b23a4d44-fce8-4160-b244-4c341fb4d890": {
-    "asset": 1483509734767,
-    "meta": 1483510083747,
-    "relativePath": "Script\\Board.js"
-  },
   "512057f5-01f5-4602-bfb2-fec5e4abd8a1": {
     "asset": 1483519515239,
     "meta": 1483519515298,
@@ -908,5 +903,10 @@
     "asset": 1483500872785,
     "meta": 1483514958517,
     "relativePath": "Script\\Control.js"
+  },
+  "b23a4d44-fce8-4160-b244-4c341fb4d890": {
+    "asset": 1483528055837,
+    "meta": 1483528056591,
+    "relativePath": "Script\\Board.js"
   }
 }
